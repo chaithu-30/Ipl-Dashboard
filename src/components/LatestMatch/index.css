@@ -1,0 +1,128 @@
+/* Write your CSS here */
+/* Write your CSS here*/
+.latest-match-card-container{
+    margin-top: 20px;
+    width: 100%;
+
+}
+.latest-match-heading{
+    font-family: "Bree Serif";
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.latest-match-card{
+    display: flex;
+    flex-direction: column;
+    background-color: #0f172a;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+}
+@media screen and (min-width: 768px){
+    .latest-match-card{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.latest-match-logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+@media screen and (min-width: 768px){
+    .latest-match-logo-container{
+        width: 60%;
+    }
+}
+.latest-match-details{
+    color: #ffffff;
+    font-family: "Bree Serif";
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+@media screen and (min-width: 768px){
+    .latest-match-details{
+        width: 100%;
+    }
+    
+}
+.latest-match-team-name{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.latest-match-venue{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.latest-match-date{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.latest-match-status{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.latest-match-logo{
+    height: 100px;
+    width: 100px;
+
+}
+@media screen and (min-width: 768px){
+    .latest-match-logo{
+        min-height: 150px;
+        min-width: 150px;
+        max-height: 200px;
+    }
+}
+.latest-match-details-info{
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 20px;
+}
+@media screen and (max-width: 767px){
+    .latest-match-details-info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width: 768px){
+    .latest-match-details-info{
+        text-align: right;
+        width: 33%;
+        padding-left: 0px;
+        padding-right: 30px;
+    }
+}
+@media screen and (max-width: 767px){
+    .match-info-item{
+        width: 45%;
+        border: 0 5px solid #fff9fc;
+        padding: 8px;
+        border-radius: 25px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        min-height: 100px;
+        max-height: 200px;
+    }
+}
+.latest-details-label{
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 15px;
+}
+.label-details-value{
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 13px;
+}
