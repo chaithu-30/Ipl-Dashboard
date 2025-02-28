@@ -1,4 +1,3 @@
-
 import Loader from 'react-loader-spinner'
 import {Component} from 'react'
 import TeamCard from '../TeamCard'
